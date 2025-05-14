@@ -1,1 +1,19 @@
-"Server/config.env" 
+# Node
+node_modules/
+.env
+config.env
+
+# Laravel
+/vendor
+.env
+/storage/*.key
+
+# Next.js
+.next
+out
+
+# Other
+.DS_Store
+
+# Environment files
+Server/config.env
